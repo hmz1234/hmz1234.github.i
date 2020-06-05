@@ -1,29 +1,29 @@
 # Site settings
-title: CodeSJobs Blog
-SEOTitle: 黄梦泽的博客 | CodeSJobs Blog
-header-img: img/post-bg-desk.jpg
-email: 2927993030@qq.com
-description: "Share and share"
-keyword: "CodeSJobs, CodeSJobs Blog, 黄梦泽的博客, CodeSJobs, 黄梦泽, Windows, Apple, Linux"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+title: DreamZ Blog
+SEOTitle: 黄梦泽的博客 | DreamZ Blog
+header-img: img/mfs.jpg
+email: 18349828158@163.com
+description: "万物皆虚，万事皆允"
+keyword: "Void DreamZ, Void DreamZ Blog, DreamZ, VoidDreamZ, 黄梦泽"
+url: "https://voiddreamz.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/voiddreamz/voiddreamz.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Answer is blowing in the wind."
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "死非生之对立面，而是作为生的一部分永存"
+sidebar-avatar: /img/voiddreamz.png   # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-# zhihu_username:     qiubaiying
-github_username:    codesjobs
-# facebook_username:  baiying.qiu.7
-# jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+weibo_username:  7348834906    
+zhihu_username:  codesjobs
+github_username:  voiddreamz
+# facebook_username:
+# jianshu_username:
+# twitter_username:
 
 
 
@@ -62,11 +62,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 854576319e7ff1611f8b                            #生成的clientID
-  clientSecret: 0d1b6b00468e4da66aa9a0d5b03556a391b713d6    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: 96633ccaa2f6d5309f20                          #生成的clientID
+  clientSecret: ee45a59dcf7584ce4705f642ad45c622f563ebcc    #生成的clientSecret
+  repo: bloggittalk    #仓库名称
+  owner: voiddreamz    #github用户名
+  admin: voiddreamz
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,11 +74,12 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 89baf10715ee0221ac584b8f76b2c8df
+ba_track_id: a0e3fdaf4aaebe29d89ee129260f694a
+
 
 # Google Analytics
-# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-# ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-160000376-1'            # Format: UA-xxxxxx-xx
+ga_domain: voiddreamz.ml               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -103,6 +104,12 @@ friends: [
         href: "https://alexander-huang.github.io"
     },{
         title: "另一个主题博客",
-        href: "https://codesjobs.github.io"
+        href: "https://hmzblog.github.io"
+    },{
+        title: "John's Blog",
+        href: "https://litebyte.coding.me/"
+    },{
+        title: "Hongyu Xu’s Blog",
+        href: "https://hongyuxu.vip"
     }
 ]
